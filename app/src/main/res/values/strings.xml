@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">List RadioButton Demo</string>
+    <string name="delete">Delete</string>
+    <string name="show">Show</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="select_all">Select All</string>
+</resources>

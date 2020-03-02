@@ -2,12 +2,13 @@ package com.listradiobutton_demo.main;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.listradiobutton_demo.R;
 import com.listradiobutton_demo.adapter.GridListAdapter;
@@ -69,7 +70,6 @@ public class GridViewFragment extends Fragment {
                 adapter.deleteSelectedPosition();
             }
         });
-
 
     }
 
